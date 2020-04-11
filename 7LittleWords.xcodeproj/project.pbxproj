@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435D2857244132F60083430B /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 435D2856244132F60083430B /* level2.txt */; };
 		43BC60082440BD3000DBE594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC60072440BD3000DBE594 /* AppDelegate.swift */; };
 		43BC600A2440BD3000DBE594 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC60092440BD3000DBE594 /* SceneDelegate.swift */; };
 		43BC600C2440BD3000DBE594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC600B2440BD3000DBE594 /* ViewController.swift */; };
 		43BC600F2440BD3000DBE594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43BC600D2440BD3000DBE594 /* Main.storyboard */; };
 		43BC60112440BD3200DBE594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BC60102440BD3200DBE594 /* Assets.xcassets */; };
 		43BC60142440BD3200DBE594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43BC60122440BD3200DBE594 /* LaunchScreen.storyboard */; };
+		43BC601C2441076600DBE594 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43BC601B2441076600DBE594 /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		435D2856244132F60083430B /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		43BC60042440BD3000DBE594 /* 7LittleWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7LittleWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BC60072440BD3000DBE594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43BC60092440BD3000DBE594 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		43BC60102440BD3200DBE594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43BC60132440BD3200DBE594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43BC60152440BD3200DBE594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BC601B2441076600DBE594 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				43BC60102440BD3200DBE594 /* Assets.xcassets */,
 				43BC60122440BD3200DBE594 /* LaunchScreen.storyboard */,
 				43BC60152440BD3200DBE594 /* Info.plist */,
+				435D2856244132F60083430B /* level2.txt */,
+				43BC601B2441076600DBE594 /* level1.txt */,
 			);
 			path = 7LittleWords;
 			sourceTree = "<group>";
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435D2857244132F60083430B /* level2.txt in Resources */,
 				43BC60142440BD3200DBE594 /* LaunchScreen.storyboard in Resources */,
+				43BC601C2441076600DBE594 /* level1.txt in Resources */,
 				43BC60112440BD3200DBE594 /* Assets.xcassets in Resources */,
 				43BC600F2440BD3000DBE594 /* Main.storyboard in Resources */,
 			);
@@ -293,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.-LittleWords";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.-LittleWords";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
